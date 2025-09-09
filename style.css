@@ -1,0 +1,102 @@
+.todos-bg-container {
+    background-image:radial-gradient(#e6f6ff, #7cabe9);
+    padding:10px;
+    padding-bottom: 40px;
+}
+
+.todos-heading {
+    text-align: center;
+    font-family: "Roboto";
+    font-size: 35px;
+    font-weight:bold;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+
+.todo-items-container {
+    margin: 0;
+    padding: 0;
+}
+
+
+.todo-user-input {
+    background-color: white;
+    width: 90%;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #e4e7eb;
+    border-radius: 10px;
+    margin-top: 10px;
+    padding: 15px;
+}
+
+.add-todo-button {
+    color: white;
+    background-color: #4c63b6;
+    font-family: "Roboto";
+    font-size: 18px;
+    border-width: 0;
+    border-radius: 4px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+.todo-item-container {
+    display:flex;
+    flex-direction: row;
+    margin-top: 15px;
+}
+
+.label-container {
+    display:flex;
+    flex-direction: row;
+    background-color: #ffffff;
+    width: 80%;
+    border-style: solid;
+    border-width: 3px;
+    border-color:midnightblue;
+    border-right: none;
+    border-bottom: none;
+    border-radius: 10px;
+    padding:10px;
+}
+
+.checkbox-input {
+    width: 23px;
+    height: 23px;
+    margin-top: 17px;
+    margin-right: 12px;
+}
+
+.checkbox-label {
+    font-family: "Roboto";
+    font-size: 20px;
+    font-weight: 400;
+    width: 82%;
+    margin: 0;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 5px;
+}
+.delete-container{
+    text-align:right;
+    width:20%;
+}
+.delete-element{
+    font-size:22px;
+    padding:5px;
+}
+
+.checked {
+    text-decoration: line-through;
+}
+
+.date {
+    text-align: right;
+}
